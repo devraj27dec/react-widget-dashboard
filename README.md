@@ -25,8 +25,8 @@ Follow these steps to get the project running locally:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/devraj27dec/assignment.git
-cd assignment
+git clone https://github.com/devraj27dec/react-widget-dashboard.git
+cd react-widget-dashboard
 ````
 
 ### 2. Install dependencies
