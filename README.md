@@ -49,7 +49,7 @@ npm run dev
 ## 🗂 Folder Structure
 
 ```
-assignment/
+react-widget-dashboard/
 ├─ public/
 ├─ src/
 │  ├─ components/
