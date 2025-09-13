@@ -29,3 +29,38 @@ node -v
 npm -v
 # or
 yarn -v
+
+
+
+## 📥 Project Setup
+
+Follow these steps to get the project running locally:
+
+### 1. Clone the repository
+
+```bash
+
+git clone https://github.com/devraj27dec/assignment.git
+cd assignment
+
+
+Install dependencies:
+
+```bash
+Using npm:
+
+npm install
+
+Or using Yarn:
+
+yarn install
+
+
+
+Start the development server:
+
+```bash
+
+npm start
+# or
+yarn start
