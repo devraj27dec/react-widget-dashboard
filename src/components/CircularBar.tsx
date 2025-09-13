@@ -63,7 +63,7 @@ export default function DonutChartWidget({ title, data, config }: DonutChartWidg
                 className="w-3 h-3 rounded-sm mr-2"
                 style={{ backgroundColor: item.color }}
               />
-              {item.label} ({item.value})
+              {item.label}({item.value})
             </div>
           ))}
         </div>
