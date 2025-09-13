@@ -27,7 +27,7 @@ Follow these steps to get the project running locally:
 ```bash
 git clone https://github.com/devraj27dec/assignment.git
 cd assignment
-````
+```
 
 ### 2. Install dependencies
 
