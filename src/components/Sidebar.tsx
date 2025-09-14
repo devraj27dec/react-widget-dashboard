@@ -14,6 +14,7 @@ export default function Sidebar({
   const { widgets, addWidget, removeWidget } = useWidgetStore();
   const [tempSelection, setTempSelection] = useState<number[]>([]);
 
+  
   const handleConfirm = () => {
     Object.entries(widgets).forEach(([categoryId, widgetList]) => {
       widgetList.forEach((w) =>
@@ -53,10 +54,6 @@ export default function Sidebar({
     }
   };
 
-  const handleRemoveWidget = (categoryId: number, widgetId: number) => {
-    removeWidget(categoryId, widgetId);
-    setTempSelection((prev) => prev.filter((w) => w !== widgetId)); 
-  };
 
   return (
     <aside
@@ -74,12 +71,12 @@ export default function Sidebar({
       <div className="p-4 text-gray-500">
         Personalize your dashboard by adding the following widgets
       </div>
-
+      
       <CategoryStepper
         selectedWidgets={tempSelection}
         setSelectedWidgets={setTempSelection}
         onAddWidget={handleAddWidget}
-        removeWidget={handleRemoveWidget}
+        categories={categories}
       />
 
       <div className="flex justify-end space-x-2 p-4 absolute bottom-0 w-full bg-white">

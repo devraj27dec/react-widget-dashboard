@@ -50,8 +50,8 @@ export default function Hero() {
               + Add Widget
             </button>
             
-            <button className="px-4 py-2 border rounded-lg text-gray-600 hover:bg-gray-100 transition">
-              <RefreshCcw  className="h-4 w-4" />
+            <button className="px-4 py-2 border rounded-lg text-gray-600 hover:bg-gray-100 transition cursor-pointer">
+              <RefreshCcw onClick={() => window.location.reload()}   className="h-4 w-4" />
             </button>
             <button className="px-4 py-2 border rounded-lg text-gray-600 hover:bg-gray-100 transition">
               <EllipsisVertical className="h-4 w-4" />
